@@ -1,8 +1,11 @@
-package com.example.springboot.student;
+package com.example.springboot.config;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
+
+import com.example.springboot.models.Student;
+import com.example.springboot.repository.StudentRepository;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
